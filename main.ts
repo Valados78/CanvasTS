@@ -136,7 +136,7 @@ type Point = {
   const rect1: Rect = { position: { x: 100, y:100 }, size: { width:50, height:30 } };
   const rect2: Rect = { position: { x:300, y:220 }, size: { width:70, height:40 } };
   const connectionPoint1: ConnectionPoint = { point: { x:100, y:85 }, angle: -90 };
-  const connectionPoint2: ConnectionPoint = { point: { x:300, y:240 }, angle: -90 };
+  const connectionPoint2: ConnectionPoint = { point: { x:300, y:200 }, angle: -90 };
   
   try {
      const pointsArray = dataConverter(rect1, rect2, connectionPoint1, connectionPoint2);
@@ -144,3 +144,6 @@ type Point = {
   } catch (error) {
      console.error(error);
   }
+
+  
+ 

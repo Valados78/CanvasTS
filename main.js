@@ -72,7 +72,7 @@ var drawCanvas = function (rect1, rect2, points) {
 var rect1 = { position: { x: 100, y: 100 }, size: { width: 50, height: 30 } };
 var rect2 = { position: { x: 300, y: 220 }, size: { width: 70, height: 40 } };
 var connectionPoint1 = { point: { x: 100, y: 85 }, angle: -90 };
-var connectionPoint2 = { point: { x: 300, y: 240 }, angle: -90 };
+var connectionPoint2 = { point: { x: 300, y: 200 }, angle: -90 };
 try {
     var pointsArray = dataConverter(rect1, rect2, connectionPoint1, connectionPoint2);
     drawCanvas(rect1, rect2, pointsArray);
